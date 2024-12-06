@@ -6,11 +6,17 @@
     */
 
     //ENTRADA
+    let populacao = 80000;
+    let anos;
 
     
     //PROCESSAMENTO
+    for(anos = 0; populacao <= 200000; anos++)  {
+        populacao = populacao * 1.03;
+    }
 
     
     //SAÍDA
+    document.write("Serão necessários " + anos + " anos para a população atingir 200000 habitantes.");
 
 </script>
