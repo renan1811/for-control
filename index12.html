@@ -1,3 +1,4 @@
+<meta charset="UTF-8">
 <script>
     /*
     PROBLEMA: INVESTIMENTOS
@@ -12,8 +13,8 @@
         invest += invest * 0.02;
         //dias++
     }
-    let diasCorretos = (dias / 5) * 2 + dias;
+    let diasCorretos = Math.floor(dias / 5) * 2 + dias;
     //SAÍDA
-    document.write(`Joãozinho chegara em 2000R$ em ${Math.floor(diasCorretos)} dia(s)`)
+    document.write(`Joãozinho chegara em 2000R$ em ${diasCorretos} dia(s)`)
 
 </script>
